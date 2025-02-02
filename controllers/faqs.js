@@ -1,5 +1,7 @@
 const FAQModel = require("../models/faqSchema");
-
+const express=require("express");
+const app=express();
+app.set("view engine","ejs");
 // const redis = require("redis");
 
 // const dotenv = require("dotenv");
