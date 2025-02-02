@@ -6,6 +6,7 @@ const methodOverride =require("method-override");
 const faqsRoute=require("./routes/faqs");
 
 const path = require("path");
+app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 
@@ -19,7 +20,7 @@ const dbURL=process.env.DB_URL;
 
 app.use(methodOverride("_method"));
 app.use(express.urlencoded({extended:true}));
-app.set("view engine","ejs");
+
 
 async function main(){
     await mongoose.connect(dbURL);
