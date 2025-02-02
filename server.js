@@ -5,6 +5,10 @@ const mongoose=require("mongoose");
 const methodOverride =require("method-override");
 const faqsRoute=require("./routes/faqs");
 
+const path = require("path");
+app.set("views", path.join(__dirname, "views"));
+
+
 const dotenv = require("dotenv");
 dotenv.config()
 
