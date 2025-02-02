@@ -1,4 +1,4 @@
-# 📌 FAQ Backend with Translation & without Redis Caching
+# 📌 FAQ Backend with Translation & without Redis Caching( due to some deployment issues, but my local machine working fine!!)
 
 A **RESTful API** built using **Node.js, Express.js, MongoDB ** that allows users to manage **FAQs** with automatic **language translation** using **MyMemory API**.  
 
